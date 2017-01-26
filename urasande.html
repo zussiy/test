@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+  content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+  <title>『裏サンデー（マンガワン）』特集(1/2)</title>
+  <link rel="stylesheet" href="column_coding.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+  <script type="text/javascript" src="../jquery.inview.js"></script>
+  <script>
+  $(function(){
+    $("#footer").click(function(){
+      $('body,html').animate({
+        scrollTop: 0,
+      },500);
+    });
+  });
+  $(function(){
+    $("#toggle_nav_sp").click(function(){
+      $(this).toggleClass('open');
+      $("#nav_menu_sp ").toggleClass('open');
+      $("#nav_menu_sp ul li").toggleClass('open');
+    });
+  });
+
+  $(function() {
+  	$('.effect').one('inview', function(event, isInView, visiblePartX, visiblePartY) {
+  		if(isInView){
+  			$(this).stop().addClass('move');
+  		}
+  		else{
+  			$(this).stop().removeClass('move');
+  		}
+  	});
+  });
+  $(function(){
+    $("#glayLayer").click(function(){
+      $(this).hide();
+      $("#overLayer").hide();
+    });
+    $("#overLayer").click(function(){
+      $("#glayLayer").hide();
+      $("this").hide();
+      $("#overLayer img").hide();
+    });
+    $("a.modal").click(function(){
+      $("#glayLayer").show();
+      $("#overLayer").show().html("<img src='"+$(this).attr("href")+"'>");
+      return false;
+    });
+    $(".modal_box img.close").click(function(){
+      $("#glayLayer").hide();
+      $("#overLayer").hide();
+    });
+  });
+
+  </script>
+</head>
+<body>
+  <header id="nav">
+
+    <div id="nav_sp">
+      <div id="nav_sp_Container">
+        <div id="toggle_nav_sp" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          </div>
+          <div id="nav_sp_logo"><a href="../base.html"><img src="../img/logo5.gif"><span>逗子漫。</span></a></div>
+      </div>
+
+      <div id="nav_menu_sp">
+        <ul>
+          <li><a href="../base.html">TOP</a></li>
+          <li><a href="../review/Review_main.html">REVIEW</a></li>
+          <li><a href="../column/column_main.html" class="current">COLUMN</a></li>
+          <li><a href="">STUDY</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="nav_menu_pc">
+      <ul>
+        <li><a href="../base.html">TOP</a></li>
+        <li><a href="../review/Review_main.html">REVIEW</a></li>
+        <li><a href="../column/column_main.html" class="current">COLUMN</a></li>
+        <li><a href="">STUDY</a></li>
+      </ul>
+      <div id="nav_menu_pc_logo"><img src="../img/logo5.png"><span>逗子漫。</span></div>
+    </div>
+
+  </header><!--ナビ終了-->
+
+  <div id="pankuzu">
+    <ol>
+      <li><a href="../base.html">TOP　〉</a></li>
+      <li><a href="../column/column_main.html">COLUMN　〉</a></li>
+      <li><a href="#">裏サンデー　オススメ作品10選</a></li>
+    </ol>
+  </div>
+
+
+<div id="main">
+
+  <div id="main_inner">
+
+    <div id="head_comment">
+      <h1>裏サンデー　オススメ作品10選</h1>
+    </div>
+
+    <div id="intro">
+      <p class=indent>・「裏サンデー」とは、小学館から配信される無料コミック配信サイト。
+        特筆すべきは、無料の域を越えた面白さ、配信作品のオリジナリティーです。</p>
+      <p class=indent>・WEBという世界だからこそ生まれる独自性なのか、どの作品も一癖あり、それでいて面白い。その他の無料コミック配信サイトとは
+      一線を画すレベルの高さです。</p>
+      <p class=indent>・なお、「マンガワン」という公式アプリで裏サンデーの作品が快適に読めるので、そちらもオススメです。</p>
+    </div>
+
+    <div id="column">
+
+      <div class="col_boxContainer">
+        <h2>灼熱カバディ</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/kabaddi/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/kabadi.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>いまこのカバディ漫画がすごい！超正統派の熱血スポーツ漫画！</h3>
+            <p class=indent>・タイトルから感じる色物感とは裏腹に、ものすごく正当なスポーツ漫画。その面白さは現行のスポーツ漫画の中でも、
+              間違いなくトップレベル。</p>
+            <p class=indent>・まず、画力・キャラ・ストーリーといった基本的な要素のレベルが非常に高い。</p>
+            <p class=indent>・そのうえ、「カバディ」の特異性・魅力を十分に描き、またマイナー、メジャースポーツの対比に作者の
+          哲学が現れ、決して色物で終わらない正当な面白さを誇ります。</p>
+          <p class=indent>・一話からそのレベルの高さは十分に感じられるので、まずは一話を読んでいただきたいです…！</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kabadi_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kabadi_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>負けず嫌い野郎達が紡ぐ熱い世界。</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kabadi_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kabadi_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>キャラクターセンス◎</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kabadi_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kabadi_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>…喰飢？。作品中、最強種である部長の魅力。</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--灼熱カバディcol_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>モブサイコ１００</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/mobupsycho100/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/mobu.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>「我々は、この漫画が今　日本で一番面白い漫画だと断言します！　ｂｙ裏サンデー編集部</h3>
+            <p class=indent>・なかなか大きく出た帯に惹かれて、読んだ本書。凄い才能がそこにはいました。</p>
+            <p class=indent>・ワンパンマン原作者ということで今や有名になったＯＮＥ氏ですが、話の面白さでは
+            ワンパンマンよりこちらと感じています。</p>
+            <p class=indent>・前半はギャグ主体で進みますが、少しづつ王道的なバトルが増えていき、何より圧倒的な力と暗い性格
+              ゆえに孤立する主人公を取り巻く環境の温かい変化は、感動します。</p>
+              <p class=indent>・ワンパンマンもそうですが、奇抜な設定とは裏腹に王道的な展開で魅せるのは、この作者は
+              本当に上手い。</p>
+            <p class=indent>・絵はむしろ下手な部類ですが、ストーリーセンスが圧倒的だと、ここまで惹きつけるのか…と
+            「進撃の巨人」を読んだ時と同レベルの衝撃を味わいました。</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/mobu_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/mobu_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p></p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/mobu_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/mobu_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p></p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/mobu_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/mobu_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p></p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--モブサイコcol_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>Helck</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/helck/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/Helck.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>今やありきたりな、いわゆる勇者もの。これは、いい勇者もの。</h3>
+            <p class=indent>・特に目新しさはない勇者ものです。しかし、全体的なクオリティが非常に高い。</p>
+            <p class=indent>・特に、キャラクターセンス・ストーリー展開・適度に織り交ぜられたギャグ、これらが
+            とても上手い。</p>
+            <p class=indent>・前半はギャグ主体で進みますが、適度な伏線が「それだけちゃうで」と臭う臭う。</p>
+            <p class=indent>・案の定、話が進むにつれて壮大な勇者ものに変わっていきますが、その変化に違和感を感じさせないあたり、作者やります。</p>
+            <p class=indent>・全編を通して作者の計算・センスが光る、良作です。</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/Helck_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/Helck_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>大袈裟すぎずカッコいい戦闘シーン</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/Helck_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/Helck_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>この美しい描写に隠された悲しい意図…知ってほしい…！（泣）</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/Helck_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/Helck_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>余裕あるやん。</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--Helck col_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>ケンガンアシュラ</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/kengan/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/kengan.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>濃い。とにかく濃い…！オール主人公級によるド級の頂点争い！</h3>
+            <p class=indent>・これほど、「地上最強争い」という名前に負けないトーナメントがあったでしょうか。</p>
+            <p class=indent>・全員主人公級の個性と強さをもっており、ありきたりな勝敗予想がまるで当たらない！</p>
+            <p class=indent>・クセが少々強いため好みはありそうですが、全てがベストバウンドといえるトーナメント編は
+            是非読んでいただきたいです。</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kengan_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kengan_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>各キャラのプライド・哲学がカッコいいんです…！</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kengan_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kengan_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>独特なセンスで表現する狂気</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kengan_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kengan_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>圧倒的ツッコミ待ち。クセの強いライバル達。</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--ケンガンアシュラcol_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>ダンベル何キロ持てる？</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/dumbbell/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/danberu3.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>女子高生 ☓ 筋肉。安定感のある良作ギャグ漫画。</h3>
+            <p class=indent>・萌え漫画と思い読み始めましたが、何ともレベル・安定感の高いギャグ漫画でした…！</p>
+            <p class=indent>・ギャグ主体ですが、安直な萌えに走らずキャラの可愛さを残し、そのうえ、実用的な知識も織り交ぜ
+              ており、要素のバランスが◎。</p>
+              <p class=indent>・また、少し太めの線が特徴的な絵は、クオリティが高く、安定して見やすいです。</p>
+            <p class=indent>・なお、本書の原作者はケンガンアシュラも担当していますが、「筋肉」以外全く別物です。</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/danberu_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/danberu_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>筋肉フェチお嬢様　☓　黒ギャル常識人</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/danberu_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/danberu_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>王道（？）勢い溢れる筋肉ギャグ。</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/danberu_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/danberu_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>ギャグとして扱う露骨な読者サービス。<br>
+                  ありがとうございます。</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--ダンベル何キロもてる？col_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>翼くんはあかぬけたいのに</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://hi-bana.com/works026.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/tubasa.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>テンポ感、ワードチョイス◎。残念系美男美女による怒涛のギャグラッシュ！</h3>
+            <p class=indent>・残念系美男美女によるギャグ漫画…というと、そこまで珍しくもないジャンルですが、本書は
+            その振り切り具合がすんごい。絵が非常に綺麗な分、ギャグの勢いとのギャップがすんごい。</p>
+            <p class=indent>・ただ、この漫画、１話目からキャラの強いクセ全開でくるため、最初は少々戸惑いました…</p>
+            <p class=indent>・しかし、渋滞気味だった個性が自然になるにつれ、作者のセンスあるワードチョイスが引き立つように
+            なってからは、神回続きになる変貌ぶり。</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/tubasa_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/tubasa_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>ワードチョイス◎</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/tubasa_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/tubasa_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>突き抜けた残念イケメン。</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/tubasa_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/tubasa_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>「四捨五入したら全裸じゃない…！」という名言。</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--翼くんはあかぬけたいのにcol_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>はなまる魔法教室</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/mobupsycho100/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/hanamaru.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>まるで絵本のような空気感…優しくもワクワクする、大切に読みたい魔法漫画。</h3>
+            <p class=indent>・今、個人的にめちゃくちゃ押しです。</p>
+            <p class=indent>・魔法系にありがちな「バトル」「萌え」といった派手な要素を、本書は見事に取り除いています。</p>
+            <p class=indent>・「魔法そのもののワクワク感」を大切に描いており、幼い頃魔法に対して抱いていたワクワク感
+              をスッと引き出してくれます。</p>
+            <p class=indent>・また、一話目から一つ一つの設定・世界観が丁寧に練られてあり、作者の作品に対する
+            真摯さがとても感じられます。</p>
+            <p class=indent>・魔法を売れる要素として扱わない、オススメの魔法漫画です。</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/hanamaru_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/hanamaru_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>何ともワクワクする魔法シーン。<br>
+                  （地味に画力凄い…）</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/hanamaru_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/hanamaru_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>魔法の質感を表現する、黒と白のバランス！</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/hanamaru_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/hanamaru_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>一つ一つの設定がとても丁寧…！</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--はなまる魔法教室col_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>桐生先生は恋愛がわからない。</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/kiryu/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/kiryuu.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>無性愛者（ノンセクシャル）主人公が突如として乙女ゲーム状態に…</h3>
+            <p class=indent>・主人公が突然ハーレム状態になるという漫画はなんぼでもありますが、「恋愛感情が分からない」
+              主人公のハーレム物語となると、存外新しいです。</p>
+            <p class=indent>・他人からの感情に鈍感な訳ではないため、物語はテンポよく進み、ハーレム漫画に抱く一種の
+            モヤモヤ感が感じられません。</p>
+            <p class=indent>・また、無性愛者故の哲学、悩みが丁寧に論じられており、恋愛というものを考えさせられます。</p>
+            <p class=indent>・少女漫画特有のキラキラとした恋愛が苦手な方にオススメしたい恋愛漫画です。</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kiryuu_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kiryuu_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>少女漫画だよね…？恋愛重視の世の中をぶった切る女性主人公。</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kiryuu_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kiryuu_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>ノンセクシャルゆえの深い悩み。</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/kiryuu_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/kiryuu_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>どっちを応援すれば…<br>
+                  対象的であり魅力あるライバル２人。</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--霧生先生col_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>秘密のレプタイルズ</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/reptiles/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/reptails.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>元エロ漫画家が描く、ようこそ爬虫類LOVE世界。（ギャグ漫画です）</h3>
+            <p class=indent>・サラリーマン主人公が癒しを求めて入ったペットショップで、爬虫類大好き美女店員に出会う…
+            というのがおおまかなストーリー。</p>
+            <p class=indent>・萌え要素が多そうなストーリー設定ですが、主体はギャグ。個性の強いキャラ達による
+            畳みかけるようなテンポ感は心地よく、ギャグのレベルも高いです。</p>
+            <p class=indent>・また、元エロ漫画家だけあり、ヒロインが妙にエロい。性格がこじれていますが、ノープロブレム。</p>
+            <p class=indent>・安定感のある絵とギャグは読みやすく、普通に良作です。</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/reptails_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/reptails_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>濃密なボケのラッシュ…！</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/reptails_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/reptails_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>ヒロインが変人可愛いのです。</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/reptails_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/reptails_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>余白をはみ出るほどの爬虫類への愛。</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--col_boxContainer終了-->
+
+      <div class="col_boxContainer">
+        <h2>グッド・ナイト・ワールド</h2>
+
+        <div class="col_box">
+          <div class="col img_box">
+            <a href="http://urasunday.com/gnw/index.html">
+              <figure><div class="col img_box_inner_img"><img src="../img/goodnight.jpg"></div>
+              <figcaption>
+                <p class="col fig_more"><span>配信サイトを見る</span></p>
+              </figcaption>
+            </figure></a>
+          </div>
+          <div class="col text_box">
+            <h3>展開の妙で魅せる、電子世界と現実の物語。</h3>
+            <p class=indent>・ネットゲームの世界が現実世界を浸食していく…今やよくある話ですよね…</p>
+            <p class=indent>・物語自体には驚きは少ないものの、展開の切り替えで読者を驚かせ、絶望させ、笑わせる能力が
+            非常に高い。</p>
+            <p class=indent>・最初はいたって「普通」という感想でしたが、電子世界と現実が混ざり始める中盤からは、
+            作者の才能が色濃く現れ、感想は「面白い」に一転。</p>
+            <p class=indent>・裏サンデーは、個性と実力が揃った漫画家が多いですわ…</p>
+          </div>
+        </div><!--col_box終了-->
+
+        <div class="scene_boxContainer">
+          <h4>Scene</h4>
+          <div class="scene_inner">
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/goodnight_point1.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/goodnight_point1.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>電子世界と現実が混ざり始める中盤以降、面白いです。</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/goodnight_point2.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/goodnight_point2.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>（ネタバレ防止のためノーコメントで…）</p>
+              </div>
+            </div>
+            <div class="scene_box effect">
+              <div class="scene img_box">
+                <a href="../img/goodnight_point3.jpg" class="modal">
+                  <figure><div class="scene img_box_inner_img"><img src="../img/goodnight_point3.jpg"></div>
+                    <figcaption>
+                      <p class="scene fig_more"><span>ＺＯＯＭ</span></p>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div class="scene text_box">
+                <p>シュールギャグの破壊力すんごい。</p>
+              </div>
+            </div>
+          </div><!--scene_boxContainer-->
+        </div><!--scene-->
+
+      </div><!--グッド・ナイト・ワールド　col_boxContainer終了-->
+
+    </div><!--column終了-->
+
+    <p id="next"><a href="urasande.html">次のページへ ▶</a></p>
+
+    <div id='glayLayer'></div>
+    <div id='overLayer'></div>
+
+  </div><!--main_inner-->
+
+</div><!--main-->
+
+  <div id="footer">
+    <a href="#" id="pagetop">
+      <i class="fa fa-angle-up" aria-hidden="true"></i>
+      <span>ページトップへ</span>
+    </a>
+  </div>
+
+</body>
+</html>
